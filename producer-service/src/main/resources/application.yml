@@ -1,0 +1,16 @@
+springdoc:
+    show-actuator: true
+
+server:
+    port: 9000
+
+spring:
+    kafka:
+        bootstrap-servers: 127.0.0.1:9092
+
+service:
+    rest-api: '/api'
+
+kafka:
+    topics:
+        consumer-topic: consumer-topic

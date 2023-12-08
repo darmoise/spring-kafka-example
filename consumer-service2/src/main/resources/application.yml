@@ -1,0 +1,10 @@
+server:
+  port: 9002
+
+spring:
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+
+kafka:
+  topics:
+    consumer-topic: consumer-topic
